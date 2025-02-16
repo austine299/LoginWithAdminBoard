@@ -1,0 +1,156 @@
+@media (max-width: 2000px) {
+  .login-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .login-body {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 6rem;
+    height: 500px;
+    width: 60%;
+  }
+  .form-and-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 50%;
+  }
+
+  .login-container {
+    background-color: #f6fff6;
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    border-radius: 5px;
+  }
+
+  .greeting {
+    color: #f70783;
+    text-align: left;
+  }
+
+  .logo-signin-container {
+    text-align: left;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+
+  .input-container input {
+    width: 100%;
+    height: 5rem;
+    border-radius: 10px;
+    border: 1px solid #2b9333;
+    margin-top: 2rem;
+  }
+  .login-btn-container input {
+    width: 100%;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: #f70783;
+    border: none;
+    margin-top: 2rem;
+  }
+
+  .img-container {
+    width: 50%;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 125%;
+    border-radius: 0px 20% 0px 95%;
+  }
+
+  .login-footer {
+    background-color: #2b9333;
+    padding: 1.5rem;
+    margin-top: 10%;
+    text-align: left;
+    color: #fff;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-body {
+    display: flex;
+    padding: 3rem;
+    gap: 4rem;
+    background-image: url("../../../public/asset/images/img-3.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .form-and-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .login-container {
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 5px;
+  }
+
+  .greeting {
+    color: #f70783;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .logo-signin-container {
+    text-align: left;
+  }
+
+  .login-form {
+    width: 100%;
+    height: auto;
+  }
+
+  .input-container input {
+    width: 100%;
+    height: 5rem;
+    border-radius: 10px;
+    border: 1px solid #2b9333;
+    margin-top: 2rem;
+  }
+  .login-btn-container input {
+    width: 100%;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: #f70783;
+    border: none;
+    margin-top: 2rem;
+    color: #fff;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 130%;
+    border-radius: 0px 20% 0px 95%;
+  }
+
+  .login-footer {
+    background-color: #2b9333;
+    padding: 1.5rem;
+    margin-top: 0%;
+    text-align: left;
+    color: #fff;
+  }
+}
